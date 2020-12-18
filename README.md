@@ -10,7 +10,6 @@ xCryptor is a unique message encryption/decryption tool.
 5) Each decryption token is unique. It can be rearranged in 95! (1.032998e+148) different ways.
 
 **Requirements**
-Modules:
-string
-random
-pyperclip
+1) string
+2) random
+2) pyperclip
