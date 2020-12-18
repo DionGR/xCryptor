@@ -93,8 +93,8 @@ def decrypt(): # Function responsible for handling the decrypt input.
     deinput = deinput[(int)(len(deinput)//2):]
     deinput.reverse()
     token = token_translate(detoken) 
-    deinput = xcrypt_loop(deinput, token, alphabet) # Decrypt the message by doing the reverse encryption
-    print('Your decrypted message is:\n' + ''.join(map(str, deinput)))
+    deinput = xcrypt_loop(deinput, token, alphabet) # Decrypt the message by doing the reverse encryption.
+    message_export(deinput)
 #==========================================
 # [SUB] Encrypting
 #==========================================
@@ -154,7 +154,7 @@ def message_export(eninput): # Export the message to a file or the clipboard.
 def encrypt(token): # Function responsible for handling the encrypt input.
     eninput = message_reader()
     while True:
-        enchoice = input('Do you want to use a token that is:\nEXISTING[1]\nNEW[2]\n')
+        enchoice = input('\nDo you want to use a token that is:\nEXISTING[1]\nNEW[2]\n')
         if enchoice == '1': # Encrypt a message using an existing token.
             existing_token(eninput, token=None)
             break
