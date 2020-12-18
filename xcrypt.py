@@ -2,7 +2,7 @@ import string
 import random
 from pyperclip import *
 
-# Program initialization
+# Program initialization 
 alphabet = list(string.printable) # Alphabet for reference.
 def logo(): # Shows the logo of the program
     logo = """
