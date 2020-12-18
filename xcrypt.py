@@ -1,6 +1,5 @@
 import string
 import random
-from colorama import *
 from pyperclip import *
 
 # Program initialization
