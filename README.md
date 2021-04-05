@@ -2,7 +2,15 @@
 
 xCryptor is a unique message encryption/decryption tool.
 
-**xCryptor's Abilities:**
+## Requirements
+
+1) string
+2) random
+2) pyperclip
+
+
+## Usage/Abilities
+
 1) Generate encryption tokens on-the-spot.
 2) Reuse old generated tokens. You can use one token to keep encrypting/decrypting messages between your friends!
 3) Encrypt/Decrypt full on paragraphs written in English, including special characters (i.e. @, !, #) and spaces.
@@ -11,7 +19,5 @@ xCryptor is a unique message encryption/decryption tool.
 6) Export the decrypted message on a file.
 5) Each decryption token is unique. It can be rearranged in 95! (1.032998e+148) different ways.
 
-**Requirements**
-1) string
-2) random
-2) pyperclip
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
